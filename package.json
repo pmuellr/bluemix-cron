@@ -1,0 +1,8 @@
+{
+    "name":                 "bluemix-cron",
+    "version":              "0.1.0",
+    "dependencies": {
+        "cron":             "1.0.x",
+        "express":          "3.4.x"
+    }
+}
