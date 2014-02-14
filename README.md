@@ -3,11 +3,7 @@ bluemix-cron
 
 A sample application for bluemix that runs cron tasks.
 
-This application runs a server which allows returns with the same response:
-
-    this server runs cron jobs
-
-So, the server doesn't really do anything useful.  It also runs two "cron jobs",
+The sample runs two "cron jobs",
 using the [npm cron package](https://www.npmjs.org/package/cron). One cron job
 runs every 10 seconds, the other runs every 15 seconds.  Both jobs just
 print the current time and a short message to stdout.
